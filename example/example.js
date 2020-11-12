@@ -1,9 +1,8 @@
-'use strict';
 const Logr = require('logr');
 const log = Logr.createLogger({
   reporters: {
     bell: {
-      reporter: require('../')
+      reporter: require('..')
     }
   }
 });
