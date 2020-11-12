@@ -1,6 +1,6 @@
 {
   "name": "logr-reporter-bell",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "Logr reporter for triggering a console bell",
   "main": "index.js",
   "scripts": {
