@@ -4,8 +4,8 @@
   "description": "Logr reporter for triggering a console bell",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js",
-    "lint": "eslint ."
+    "test": "node example/example.js",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -23,12 +23,9 @@
   },
   "homepage": "https://github.com/firstandthird/logr-reporter-bell#readme",
   "devDependencies": {
-    "eslint": "^3.16.1",
-    "eslint-config-firstandthird": "^3.3.0",
+    "eslint": "^7.13.0",
+    "eslint-config-firstandthird": "^6.0.2",
     "eslint-plugin-import": "^2.2.0",
-    "logr": "^2.0.0-beta.2"
-  },
-  "eslintConfig": {
-    "extends": "firstandthird"
+    "logr": "^4.0.0"
   }
 }

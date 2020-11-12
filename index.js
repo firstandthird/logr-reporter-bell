@@ -1,4 +1,3 @@
-'use strict';
 exports.defaults = {
   filter: ['error']
 };
